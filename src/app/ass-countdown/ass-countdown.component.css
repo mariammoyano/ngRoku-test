@@ -1,0 +1,14 @@
+.countdown {
+    font-size: 9rem;
+}
+
+.expired {
+    color: #9d231a;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
